@@ -50,7 +50,7 @@ function noentiendo($chatId)
 
 function menuprincipal($chatId)
 {
-	$message = "Hola, soy <b>Pegasus1Bot</b> y te puedo indicar tu ID%0ALo necesitas para que te pueda enviar alertas.";
+	$message = "Hola, soy <b>Telemetria Satelital Bot</b> y te puedo indicar tu ID%0ALo necesitas para que te pueda enviar alertas.";
 	$tecladoprincipal = '&reply_markup={"keyboard":[["ID"],["Soporte"]],"resize_keyboard":true}';
 	$url = $GLOBALS[website].'/sendmessage?chat_id='.$chatId.'&parse_mode=HTML&text='.$message.$tecladoprincipal;
 	file_get_contents($url);
