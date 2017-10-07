@@ -1,3 +1,0 @@
-# TelemetriaSatelitalBot
-
-Telemetria Satelital Bot
